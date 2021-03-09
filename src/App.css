@@ -13,6 +13,22 @@ body {
   padding: 20px;
 }
 
+.app__button {
+  background-color: rgb(29, 194, 57);
+  border-radius: 9px;
+  height: 2.7rem;
+  width: 16rem;
+  font-size: 1.2rem;
+  border: none;
+  box-shadow: 2px 2px 3px rgb(3, 15, 27);
+  color:white;
+  font-family: 'Rubik', sans-serif;
+}
+
+* {
+	outline: none;
+}
+
 .app__left {
   flex: 0.7;
   margin-right: 15px;

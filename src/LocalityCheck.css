@@ -1,0 +1,82 @@
+.loc {
+  height: 100vh;
+}
+
+.loc__header {
+  height: 25vh;
+  background-color: #f5f6fa;
+  font-family: 'Rubik', sans-serif;
+  color: rgb(85, 156, 223);
+}
+
+.loc__heading {
+  padding-top: 4vh;
+  padding-left: 3vw;
+  font-size: 5vh;
+}
+
+.loc__header p {
+  padding-top: 4vh;
+  padding-left: 3vw;
+  font-size: 3vh;
+}
+
+.loc__body {
+  height: 75vh;
+}
+
+.loc__part {
+  float: left;
+  width: 33.33%;
+  height: 80%;
+}
+
+.loc__part h2 {
+  font-family: 'Rubik', sans-serif;
+  color: rgb(16, 143, 54);
+  font-size: 3vh;
+  text-align: center;
+  padding-top: 1vh;
+}
+
+.loc__body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.loc__card p {
+  margin-left: 5.5vw;
+  margin-top: 5vh;
+}
+
+.loc__card Button {
+  margin-left: 9.8vw;
+  margin-top: 3.5vh;
+}
+
+.loc__card {
+  width: 26vw;
+  height: 53vh;
+  margin-left: 3vw;
+}
+
+.loc__card2 p {
+  margin-left: 5.5vw;
+  margin-top: 5vh;
+}
+
+.loc__card2 Button {
+  margin-left: 9.8vw;
+  margin-top: 1.5vh;
+}
+
+.loc__card2 {
+  width: 26vw;
+  height: 53vh;
+  margin-left: 3vw;
+}
+
+.loc__goBack {
+  margin-left: 3vw;
+}
